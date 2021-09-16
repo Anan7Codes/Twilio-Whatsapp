@@ -1,0 +1,21 @@
+{
+  "name": "twilio-whatsapp",
+  "version": "1.0.0",
+  "description": "Testing out twilio whatsapp api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anandhu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "twilio": "^3.67.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
